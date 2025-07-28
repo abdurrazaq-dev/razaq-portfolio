@@ -1,0 +1,74 @@
+#quote {
+    text-align: center;
+    font-size: 30px;
+}
+
+#quote:hover {
+    color: blue;
+}
+
+p {
+    font-size: 20px;
+    text-align: start;
+}
+
+#student {
+    font-weight: bold;
+
+}
+
+#name {
+    font-weight: bolder;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007acc;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect */
+.btn:hover {
+    background-color: #005f99;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#git {
+    font-size: medium;
+    text-decoration-line: underline;
+}
+
+#connections {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: large;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.profile {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    display: block;
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.6);
+
+}
+li{
+    
+    font-size: large;
+    font-weight: bolder;
+}
